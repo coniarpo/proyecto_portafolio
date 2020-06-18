@@ -6,20 +6,24 @@ body {
     background-color: #020202;
 }
 
-.logo { 
-    font-weight: 900;
-}
-
 header {
     background-image: url(../img/New\ Project.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    height: 40vw;
+    height: 90vh;
 }
 
 header div h1 { 
     font-weight: 900;
+}
+
+.titulo1 { 
+    margin-top: 300px;
+}
+
+.sobre-mi { 
+    background-color: #A0A0A0;
 }
 
 .fab { 
