@@ -1,5 +1,9 @@
 body { 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fondo-gris { 
+    background-color: #020202;
 }
 
 .logo { 
@@ -11,5 +15,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    height: 80vh;
+    height: 40vw;
+}
+
+header div h1 { 
+    font-weight: 900;
+}
+
+.fab { 
+    color: #ffffff;
 }
