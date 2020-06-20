@@ -1,4 +1,5 @@
 body { 
+    font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,12 +19,26 @@ header div h1 {
     font-weight: 900;
 }
 
+.nombre { 
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+}
+
 .titulo1 { 
     margin-top: 300px;
 }
 
 .sobre-mi { 
-    background-color: #A0A0A0;
+    background-color: #6E6560;
+    color: #ffffff;
+}
+
+.texto-col { 
+    font-weight: 300;
+}
+
+#experiencia { 
+    background-color: #E0DAD7;
 }
 
 .fab { 
