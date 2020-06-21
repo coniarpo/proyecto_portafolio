@@ -7,7 +7,7 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--GoogleFonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400;1,700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/3f9df3e5de.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -51,7 +51,8 @@
     <!--SOBRE MÍ-->
     <section class="sobre-mi d-none d-sm-block d-sm-none d-md-block" id="sobre-mi">
       <div class="container py-5">
-          <h3 class="text-center text-white p-4">Sobre mí</h3>
+          <h3 class="text-center text-white p-4 display-4">Sobre mí</h3>
+          <hr color="#FFFFFF" height="3">
           <div class="row py-4 texto-col">
             <div class=" px-5 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In culpa dolores veritatis suscipit perferendis eius maxime rem quae aspernatur. Officiis fugiat possimus quas. Impedit delectus non necessitatibus nostrum corporis error.</p>
@@ -71,23 +72,82 @@
           <div class="text-center px-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <i class="fas fa-pencil-alt fa-3x py-3"></i>
             <h4>Factoria</h4>
-            <h5>Febrero - Julio 2015</h5>
-            <p class="text-justify">Encargada del diseño de mobiliario en madera y vidrio, desde la conceptualización, cubicación y planimetría 
-              para la fabricación de estos por parte de carpinteros. 
-            </p>
+            <p>Febrero - Julio 2015</p>
+            <button type="button" class="btn btn-outline-dark btn-sm botonmod px-5" data-toggle="modal" data-target="#Factoria" data-placement="bottom" title="Diseñadora en Factoria">Ver más</button>
+            <!--modal-->
+            <div class="modal fade" id="Factoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Diseñadora en Factoria</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-justify">Encargada del diseño de mobiliario en madera y vidrio, desde la conceptualización, cubicación y planimetría 
+                      para la fabricación de estos por parte de carpinteros. 
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark btn-sm" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
           </div>
+
           <div class="text-center px-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <i class="fas fa-robot fa-3x py-3"></i>
             <h4>Hola Mimo</h4>
-            <h5>Julio 2016 - Diciembre 2018</h5>
-            <p class="text-justify">Encargada del desarrollo del diseño del producto, diseño de experiencia del robot didáctico   Hola Mimo, diseño de packaging, construcción de la marca, posicionamiento e identidad corporativa.
-            </p>
+            <p>Julio 2016 - Diciembre 2018</p>
+            <button type="button" class="btn btn-outline-dark btn-sm botonmod px-5" data-toggle="modal" data-target="#HolaMimo" data-placement="bottom" title="Directora Creativa en HolaMimo">Ver más</button>
+            <!--modal-->
+            <div class="modal fade" id="HolaMimo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Directora creativa en Hola Mimo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-justify">Encargada del desarrollo del diseño del producto, diseño de experiencia del robot didáctico   Hola Mimo, diseño de packaging, construcción de la marca, posicionamiento e identidad corporativa.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark btn-sm" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
           </div>
+
           <div class="text-center px-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <i class="fas fa-wrench fa-3x py-3"></i>
             <h4>CCPMakers</h4>
-            <h5>Marzo 2018 - Actualidad</h5>
-            <p class="text-justify">Responsable del diseño, definición de materialidad y fabricación de productos, principalmente en tecnología láser y CNC router, trabajando primordialmente maderas y plásticos.</p>
+            <p>Marzo 2018 - Actualidad</p>
+            <button type="button" class="btn btn-outline-dark btn-sm botonmod px-5" data-toggle="modal" data-target="#CCPMakers" data-placement="bottom" title="Co-fundadora en CCPMakers">Ver más</button>
+            <!--modal-->
+            <div class="modal fade" id="CCPMakers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Co-Fundadora en CCPMakers</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-justify">Responsable del diseño, definición de materialidad y fabricación de productos, principalmente en tecnología láser y CNC router, trabajando primordialmente maderas y plásticos.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark btn-sm" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
           </div>
         </div>
       </div>
@@ -96,7 +156,7 @@
     <!--TRABAJOS-->
     <section id="trabajos">
       <div class="container py-5">
-        <h3>Últimos trabajos</h3>
+        <h3 class="ultimostrabajos text-center text-white">Últimos trabajos</h3>
         <div class="card-deck">
           <div class="card m-4">
             <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffee">
@@ -147,7 +207,12 @@
     </section>
 
     <!--CONTACTO typeform-->
-    <section id="contacto"></section>
+    <section id="contacto" class="m-o"></section>
+      <div class="typeform-widget" data-url="https://form.typeform.com/to/ndiJ0gSC" style="width: 100%; height: 350px;">
+      </div> 
+      <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() 
+      </script> 
+     
 
     <!--FOOTER-->
     <footer class="fondo-gris">

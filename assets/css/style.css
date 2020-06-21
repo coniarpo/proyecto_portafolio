@@ -1,6 +1,5 @@
 body { 
-    font-family: 'Playfair Display', serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fondo-gris { 
@@ -16,12 +15,11 @@ header {
 }
 
 header div h1 { 
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .nombre { 
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .titulo1 { 
@@ -43,4 +41,16 @@ header div h1 {
 
 .fab { 
     color: #ffffff;
+}
+
+#trabajos { 
+    background-color: #6E6560;  
+}
+
+.card {
+    background-color: #E0DAD7;
+}
+
+.ultimostrabajos { 
+    font-weight: 700;
 }
