@@ -15,7 +15,7 @@ header {
 }
 
 header div h1 { 
-    font-weight: 700;
+    font-weight: 700  ;
 }
 
 .nombre { 
@@ -33,10 +33,20 @@ header div h1 {
 
 .texto-col { 
     font-weight: 300;
+    font-size: 12px;
 }
 
 #experiencia { 
     background-color: #E0DAD7;
+}
+
+.nomtrab { 
+    font-weight: 700;
+}
+
+.fechas { 
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .fab { 
@@ -49,8 +59,4 @@ header div h1 {
 
 .card {
     background-color: #E0DAD7;
-}
-
-.ultimostrabajos { 
-    font-weight: 700;
 }

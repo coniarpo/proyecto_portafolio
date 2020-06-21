@@ -17,7 +17,7 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fondo-gris fixed-top">
         <div class="container">
-          <a class="navbar-brand logo" href="#hero">...</a>
+          <a class="navbar-brand logo" href="#hero">Constanza Arriagada</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,13 +52,15 @@
     <section class="sobre-mi d-none d-sm-block d-sm-none d-md-block" id="sobre-mi">
       <div class="container py-5">
           <h3 class="text-center text-white p-4 display-4">Sobre mí</h3>
-          <hr color="#FFFFFF" height="3">
+          <hr color="#FFFFFF">
           <div class="row py-4 texto-col">
             <div class=" px-5 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In culpa dolores veritatis suscipit perferendis eius maxime rem quae aspernatur. Officiis fugiat possimus quas. Impedit delectus non necessitatibus nostrum corporis error.</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam fugiat deserunt error optio quisquam perspiciatis aut, mollitia expedita animi doloremque, reiciendis velit et. Velit placeat voluptatum voluptas maxime exercitationem mollitia.</p>
             </div>
             <div class="px-5 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam fugiat deserunt error optio quisquam perspiciatis aut, mollitia expedita animi doloremque, reiciendis velit et. Velit placeat voluptatum voluptas maxime exercitationem mollitia.</p>
+              <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In culpa dolores veritatis suscipit perferendis eius maxime rem quae aspernatur. Officiis fugiat possimus quas. Impedit delectus non necessitatibus nostrum corporis error.</p>
             </div>
           </div>
         </div>
@@ -67,12 +69,13 @@
     <!--EXPERIENCIA-->
     <section id="experiencia">
       <div class="container py-5">
-        <h3 class="text-center p-4">Mi Experiencia</h3>
-        <div class="row">
-          <div class="text-center px-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <h1 class="text-center p-4 text-wrap">Experiencia</h1>
+        <hr>
+        <div class="row py-5">
+          <div class="text-center px-5 pb-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <i class="fas fa-pencil-alt fa-3x py-3"></i>
-            <h4>Factoria</h4>
-            <p>Febrero - Julio 2015</p>
+            <h4 class="nomtrab">Factoria</h4>
+            <p class="fechas">Febrero - Julio 2015</p>
             <button type="button" class="btn btn-outline-dark btn-sm botonmod px-5" data-toggle="modal" data-target="#Factoria" data-placement="bottom" title="Diseñadora en Factoria">Ver más</button>
             <!--modal-->
             <div class="modal fade" id="Factoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -97,10 +100,10 @@
             </div>  
           </div>
 
-          <div class="text-center px-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="text-center px-5 pb-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <i class="fas fa-robot fa-3x py-3"></i>
-            <h4>Hola Mimo</h4>
-            <p>Julio 2016 - Diciembre 2018</p>
+            <h4 class="nomtrab">Hola Mimo</h4>
+            <p class="fechas">Julio 2016 - Diciembre 2018</p>
             <button type="button" class="btn btn-outline-dark btn-sm botonmod px-5" data-toggle="modal" data-target="#HolaMimo" data-placement="bottom" title="Directora Creativa en HolaMimo">Ver más</button>
             <!--modal-->
             <div class="modal fade" id="HolaMimo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -124,10 +127,10 @@
             </div>  
           </div>
 
-          <div class="text-center px-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="text-center px-5 pb-5 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
             <i class="fas fa-wrench fa-3x py-3"></i>
-            <h4>CCPMakers</h4>
-            <p>Marzo 2018 - Actualidad</p>
+            <h4 class="nomtrab">CCPMakers</h4>
+            <p class="fechas">Marzo 2018 - Actualidad</p>
             <button type="button" class="btn btn-outline-dark btn-sm botonmod px-5" data-toggle="modal" data-target="#CCPMakers" data-placement="bottom" title="Co-fundadora en CCPMakers">Ver más</button>
             <!--modal-->
             <div class="modal fade" id="CCPMakers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -156,50 +159,51 @@
     <!--TRABAJOS-->
     <section id="trabajos">
       <div class="container py-5">
-        <h3 class="ultimostrabajos text-center text-white">Últimos trabajos</h3>
+        <h1 class="text-center text-white py-4">Últimos trabajos</h1>
+        <hr color="#FFFFFF">
         <div class="card-deck">
-          <div class="card m-4">
+          <div class="card m-4 border-0">
             <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffee">
             <div class="card-body">
-              <h5 class="card-title">Meet&Coffee</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title nomtrab">Meet&Coffee</h5>
+              <p class="card-text fechas">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card m-4">
+          <div class="card m-4 border-0">
             <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
             <div class="card-body">
-              <h5 class="card-title">Iguana Page</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title nomtrab">Iguana Page</h5>
+              <p class="card-text fechas">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card m-4">
+          <div class="card m-4 border-0">
             <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
             <div class="card-body">
-              <h5 class="card-title">Suricata</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title nomtrab">Suricata</h5>
+              <p class="card-text fechas">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>  
         </div>
         <div class="card-deck">
-          <div class="card m-4">
+          <div class="card m-4 border-0">
             <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
             <div class="card-body">
-              <h5 class="card-title">Cuppon</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title nomtrab">Cuppon</h5>
+              <p class="card-text fechas">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card m-4">
+          <div class="card m-4 border-0">
             <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
             <div class="card-body">
-              <h5 class="card-title">Ricomida</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title nomtrab">Ricomida</h5>
+              <p class="card-text fechas">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card m-4">
+          <div class="card m-4 border-0">
             <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
             <div class="card-body">
-              <h5 class="card-title">DMark</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title nomtrab">DMark</h5>
+              <p class="card-text fechas">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>  
         </div>
